@@ -1,5 +1,8 @@
 # SVD for GCN embedding for reducing overfitting
 
+## Abstract
+Big neural networks, with huge amount of neurons, can solve any problems potentially, but in practices this networks may be subject to overfitted and Graph Convolutional Networks(GCN) is not exception. In this project, we want to use Singular Value Decomposition(SVD) for extracting most relevant componnents from embeddings constructed by GCN. It can help to reduce overfitting.
+
 ## Outline:
 1. Make neural network with GCN with big amount of params as a embedding on some popular dataset, train it and observ overfitting (because big amount of params)
 2. Use SVD for decompose embedding, truncate it by **r**
