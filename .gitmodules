@@ -1,0 +1,3 @@
+[submodule "DropEdge"]
+	path = DropEdge
+	url = https://github.com/DropEdge/DropEdge.git
