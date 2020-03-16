@@ -6,8 +6,3 @@ networks are usually shallow, with the number of layers not larger than 2.  Deep
 perform much worse, even if some standard techniques like dropout and weight penalizing are being
 implemented.  In our work, we use singular value decomposition(SVD) for extracting the most
 relevant components from embeddings constructed by the network to overcome overfitting.
-
-## Authors
-* Ildar Abdrakhmanov
-* Anastasia Remizova
-* Mikhail Salnikov
