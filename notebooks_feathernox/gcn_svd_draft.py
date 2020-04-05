@@ -21,7 +21,7 @@ class GraphConvolutionBSSVD(Module):
         
         U, s, Vt = torch.svd(orig_layer.weight.clone())
         Vt = Vt.T
-        self.A = Parameter((U[:, :self.r] * s[:self.r]) @ Vt[:self.r, :])
+        # self.A = Parameter((U[:, :self.r] * s[:self.r]) @ Vt[:self.r, :])
         
         if self.training:
             self.U, self.s, self.Vt = None, None, None
